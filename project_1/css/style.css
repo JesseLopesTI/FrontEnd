@@ -1,0 +1,51 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    height: 288px;
+    background-color: #EDEDED;
+}
+
+#container {
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.titulo_principal {
+    font-size: 70px;
+    color: #444444;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #C4C5C6;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+}
+
+li a {
+    padding: 12px;
+}
+
+a:hover {
+    color: #444444;
+}
+
+.links {
+    color: #444444;
+}
