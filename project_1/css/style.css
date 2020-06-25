@@ -50,8 +50,52 @@ a:hover {
     color: #444444;
 }
 
-.secondary-title {
+form {
+    font-family: times new roman;
+    font-size: 14px;
+    color: #333333;
+    padding: 100px;
+}
+
+#container-contact {
+    width: 500px;
+    border: solid #C4C5C6;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 80px;
+}
+
+h2 {
+    font-family: arial;
+    font-weight: normal;
     font-size: 60px;
-    color: #444444;
-    padding: 18px;
+    color: #333333;
+    text-align: center;
+    Padding-bottom: 55px;
+}
+
+input {
+    border: solid #C4C5C6;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 480px;
+    padding: 10px;
+}
+
+textarea {
+    border: solid #C4C5C6;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 460px;
+    padding: 10px 30px 30px 10px;
+}
+
+.button {
+    background: #333333;
+    font-family: times new roman;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 100px;
+    padding: 10px 25px;
+    border-radius: 5px;
 }
