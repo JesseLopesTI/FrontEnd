@@ -18,7 +18,7 @@ h1 {
     font-weight: normal;
 }
 
-.titulo_principal {
+.main-title {
     font-size: 70px;
     color: #444444;
 }
@@ -48,4 +48,10 @@ a:hover {
 
 .links {
     color: #444444;
+}
+
+.secondary-title {
+    font-size: 60px;
+    color: #444444;
+    padding: 18px;
 }
