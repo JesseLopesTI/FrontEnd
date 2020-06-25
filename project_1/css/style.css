@@ -20,7 +20,7 @@ h1 {
 
 .main-title {
     font-size: 70px;
-    color: #444444;
+    color: #333333;
 }
 
 nav li {
@@ -43,11 +43,11 @@ li a {
 }
 
 a:hover {
-    color: #444444;
+    color: #333333;
 }
 
 .links {
-    color: #444444;
+    color: #333333;
 }
 
 #form-container {
@@ -57,7 +57,7 @@ a:hover {
 
 form {
     width: 500px;
-    border:1px solid #C4C5C6;
+    border: 1px solid #C4C5C6;
     border-radius: 5px;
     padding: 80px;
     font-family: times new roman;
@@ -79,8 +79,7 @@ h2 {
 input {
     font-family: times new roman;
     font-size: 16px;
-    border: solid #C4C5C6;
-    border-width: 1px;
+    border: 1px solid #C4C5C6;
     border-radius: 3px;
     width: 480px;
     padding: 12px;
@@ -89,8 +88,7 @@ input {
 textarea {
     font-family: times new roman;
     font-size: 16px;
-    border: solid #C4C5C6;
-    border-width: 1px;
+    border: 1px solid #C4C5C6;
     border-radius: 3px;
     width: 480px;
     padding: 50px 12px;
