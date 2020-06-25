@@ -61,7 +61,7 @@ form {
     border-radius: 5px;
     padding: 80px;
     font-family: times new roman;
-    font-size: 14px;
+    font-size: 16px;
     color: #333333;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -77,6 +77,8 @@ h2 {
 }
 
 input {
+    font-family: times new roman;
+    font-size: 16px;
     border: solid #C4C5C6;
     border-width: 1px;
     border-radius: 3px;
@@ -85,17 +87,20 @@ input {
 }
 
 textarea {
+    font-family: times new roman;
+    font-size: 16px;
     border: solid #C4C5C6;
     border-width: 1px;
     border-radius: 3px;
-    width: 443px;
-    padding: 50px 30px;
+    width: 480px;
+    padding: 50px 12px;
+    padding-top: 12px;
 }
 
 .button {
     background: #333333;
     font-family: times new roman;
-    font-size: 14px;
+    font-size: 16px;
     color: #FFFFFF;
     width: 100px;
     padding: 12px;
