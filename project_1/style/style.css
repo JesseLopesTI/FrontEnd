@@ -7,6 +7,8 @@ body {
     margin: 0;
 }
 
+/* Header */
+
 header {
     height: 288px;
     background-color: #EDEDED;
@@ -32,9 +34,12 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
     font-size: 40px;
     color: #C4C5C6;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -53,6 +58,44 @@ a:hover {
 .links {
     color: #333333;
 }
+
+/* Content */
+
+#logo-design-container {
+    width: 1090px;
+    bottom: 50px;
+    border: 1px solid #C4C5C6;
+    border-radius: 5px;
+    margin: 100px;
+}
+
+.content-container {
+    width: 350px;
+    bottom: 50px;
+    border: 1px solid #C4C5C6;
+    border-radius: 5px;
+    margin: 80px 80px 80px 80px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 a {
+    color: #C4C5C6;
+    top: 0;
+    padding: 0;
+}
+
+img {
+    width: 250px;
+    border-radius: 5px;
+    margin: 50px 0 0px 50px;
+}
+
+/* Form */
 
 #form-container {
     justify-content: center;
