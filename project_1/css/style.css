@@ -89,10 +89,6 @@ input:hover {
     border: 1px solid #333333;
 }
 
-input.--has-error {
-    border: 1px solid #333333;
-}
-
 textarea {
     font-family: times new roman;
     font-size: 16px;
