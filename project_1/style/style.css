@@ -1,7 +1,13 @@
+* {
+    outline: none;
+}
+
 body {
     font-family: arial, helvetica, sans-serif;
     margin: 0;
 }
+
+/* Header */
 
 header {
     height: 288px;
@@ -28,9 +34,12 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
     font-size: 40px;
     color: #C4C5C6;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -50,6 +59,44 @@ a:hover {
     color: #333333;
 }
 
+/* Content */
+
+#logo-design-container {
+    width: 1090px;
+    bottom: 50px;
+    border: 1px solid #C4C5C6;
+    border-radius: 5px;
+    margin: 100px;
+}
+
+.content-container {
+    width: 350px;
+    bottom: 50px;
+    border: 1px solid #C4C5C6;
+    border-radius: 5px;
+    margin: 80px 80px 80px 80px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 a {
+    color: #C4C5C6;
+    top: 0;
+    padding: 0;
+}
+
+img {
+    width: 250px;
+    border-radius: 5px;
+    margin: 50px 0 0px 50px;
+}
+
+/* Form */
+
 #form-container {
     justify-content: center;
     display: flex;
@@ -60,7 +107,7 @@ form {
     border: 1px solid #C4C5C6;
     border-radius: 5px;
     padding: 80px;
-    font-family: times new roman;
+    font-family: times new roman, helvetica, sans-serif;
     font-size: 16px;
     color: #333333;
     margin-top: 100px;
@@ -77,7 +124,7 @@ h2 {
 }
 
 input {
-    font-family: times new roman;
+    font-family: times new roman, helvetica, sans-serif;
     font-size: 16px;
     border: 1px solid #C4C5C6;
     border-radius: 3px;
@@ -89,8 +136,12 @@ input:hover {
     border: 1px solid #333333;
 }
 
+input:focus {
+    border: 1px solid #333333;
+}
+
 textarea {
-    font-family: times new roman;
+    font-family: times new roman, helvetica, sans-serif;
     font-size: 16px;
     border: 1px solid #C4C5C6;
     border-radius: 3px;
@@ -103,12 +154,21 @@ textarea:hover {
     border: 1px solid #333333;
 }
 
+textarea:focus {
+    border: 1px solid #333333;
+}
+
 .button {
     background: #333333;
-    font-family: times new roman;
+    font-family: times new roman, helvetica, sans-serif;
     font-size: 16px;
     color: #FFFFFF;
     width: 100px;
     padding: 12px;
+    border: 1px solid #333333;
     border-radius: 5px;
+}
+
+.button:hover {
+    border: 1px solid #FFFFFF;
 }
