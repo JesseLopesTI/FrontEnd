@@ -1,15 +1,42 @@
-/* body */
+/* Reset */
+
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+/* General Settings */
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #C4C5C6;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+}
 
 * {
     outline: none;
 }
 
-body {
-    font-family: arial, helvetica, sans-serif;
-    margin: 0;
-}
-
-/* Header */
+/* HEADER */
 
 header {
     height: 288px;
@@ -17,13 +44,7 @@ header {
 }
 
 #nav-container {
-    margin: 0;
     padding: 40px;
-}
-
-h1 {
-    text-align: center;
-    font-weight: normal;
 }
 
 .main-title {
@@ -37,15 +58,10 @@ nav li {
 
 nav a {
     font-size: 40px;
-    color: #C4C5C6;
-}
-
-a {
-    text-decoration: none;
 }
 
 ul {
-    padding: 0;
+    padding: 0px;
     text-align: center;
 }
 
@@ -61,36 +77,44 @@ a:hover {
     color: #333333;
 }
 
-/* Content */
+/* MAIN */
 
-.content-container {
-    width: 350px;
-    bottom: 50px;
-    border: 1px solid #C4C5C6;
-    border-radius: 5px;
-    margin: 80px;
+.section-title {
+    padding-top: 60px;
 }
 
-.secondary-title {
-    padding-top: 80px;
+/* Grid Layout Section */
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    padding: 10px;
+    margin: 0px auto;
+    grid-gap: 40px;
+}
+
+@media (max-width: 800px) {
+    .grid-layout {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 h3 {
     font-weight: normal;
     font-size: 30px;
     text-align: center;
-    margin-bottom: -10px;
 }
 
 h3 a {
     color: #C4C5C6;
-    margin-bottom: -25px;
-    padding: 0;
+    padding: 0px;
 }
 
 img {
-    width: 220px;
-    margin: 50px 0 0 65px;
+    width: 300px;
+    border: 1px solid #C4C5C6;
+    border-radius: 5px;
 }
 
 h4 {
@@ -98,10 +122,11 @@ h4 {
     text-align: center;
     color: #C4C5C6;
     margin-bottom: 10px;
-    padding: 0;
+    margin-top: -20px;
+    padding: 0px;
 }
 
-/* Form */
+/* FORM */
 
 #form-container {
     justify-content: center;
