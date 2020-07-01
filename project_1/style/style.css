@@ -203,3 +203,24 @@ textarea:focus {
 .button:hover {
     border: 1px solid #FFFFFF;
 }
+
+/* Content Pages */
+
+.content-page {
+    max-width: 1000px;
+    margin: 0px auto;
+
+    /*    display: grid;
+    grid-template-columns: 1fr 200px;
+    max-width: 1000px;
+    margin: 0px auto;
+    grid-gap: 40px;*/
+}
+
+.image-size {
+    width: 500px;
+}
+
+.page-content-container {
+    margin-top: 50px;
+}
