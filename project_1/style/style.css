@@ -80,7 +80,8 @@ a:hover {
 /* MAIN */
 
 .section-title {
-    padding-top: 60px;
+    padding-top: 50px;
+    font-size: 40px;
 }
 
 /* Grid Layout Section */
@@ -102,7 +103,7 @@ a:hover {
 
 h3 {
     font-weight: normal;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -148,7 +149,7 @@ form {
 h2 {
     font-family: arial;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 50px;
     color: #333333;
     text-align: center;
     Padding-bottom: 55px;
@@ -209,6 +210,7 @@ textarea:focus {
 .content-page {
     max-width: 700px;
     margin: 0px auto;
+    margin-top: -20px;
 }
 
 p {
@@ -222,5 +224,5 @@ p {
 }
 
 .page-content-container {
-    margin-top: 50px;
+    margin-top: 0px;
 }
