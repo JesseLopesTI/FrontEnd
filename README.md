@@ -1,8 +1,8 @@
-# FrontEnd
+## FrontEnd
 
 Repositório de estudos de **Front-End**.
 
-## Linguagens
+**Linguagens:**
 
-* **HTML**
-* **CSS**
+* HTML
+* CSS
