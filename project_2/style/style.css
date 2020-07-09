@@ -3,7 +3,6 @@
 body, p {
     margin: 0px;
     padding: 0px;
-    font-size: 1.2rem;
     font-style: normal;
 }
 
@@ -19,16 +18,23 @@ a {
     color: #C4C5C6;
 }
 
+a:hover {
+    color: #333333;
+}
+
 h1 {
     text-align: center;
     font-weight: normal;
+    font-size: 45px;
 }
 
 /* Main */
 
 #main-container {
-    border: 1px solid #000000;
     width: 50%;
+    height: 600px;
+    border: 1px solid #000000;
+    padding-top: 150px;
 }
 
 #avatar-container {
@@ -41,10 +47,27 @@ h1 {
 }
 
 p {
+    font-size: 18px;
     text-align: center;
     color: #333333;
 }
 
+#logos-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
 .logos {
-    width: 80px;
+    width: 40px;
+    margin: 10px;
+}
+
+#image-content {
+    display: flex;
+    justify-content: right;
+}
+
+img {
+    width: 646px;
 }
