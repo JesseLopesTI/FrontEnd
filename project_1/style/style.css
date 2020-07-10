@@ -187,6 +187,7 @@ textarea {
     width: 480px;
     padding: 12px;
     margin: 10px 0px 25px;
+    resize: vertical;
 }
 
 textarea:hover {
