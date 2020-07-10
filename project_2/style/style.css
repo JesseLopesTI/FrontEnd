@@ -60,9 +60,37 @@ p {
     margin-top: 32px;
 }
 
-.logos {
-    width: 40px;
+.github-logo {
+    width: 35px;
     margin: 10px;
+    color: #333333;
+}
+
+.github-logo:hover {
+    color: #181717;
+    width: 40px;    
+}
+
+.linkedin-logo {
+    width: 35px;
+    margin: 10px;
+    color: #333333;
+}
+
+.linkedin-logo:hover {
+    color: #0077B5;
+    width: 40px;    
+}
+
+.instagram-logo {
+    width: 35px;
+    margin: 10px;
+    color: #333333;
+}
+
+.instagram-logo:hover {
+    color: #E4405F;
+    width: 40px;    
 }
 
 #image-content {
