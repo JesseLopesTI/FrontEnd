@@ -33,7 +33,7 @@ h1 {
 
 #main-container {
     width: 50%;
-    height: 600px;
+    height: 540px;
     padding-top: 150px;
     display: inline-block;
 }
@@ -65,17 +65,19 @@ svg {
     overflow: visible;
     vertical-align: -.125em;
     padding: 5px;
-    transition: 0.5s;
 }
 
 .fa-github-square:hover {
-    color: #181717;    
+    color: #181717;
+    transition: 1s;
 }
 
 .fa-linkedin:hover {
     color: #0077B5;
+    transition: 1s;
 }
 
 .fa-instagram-square:hover {
     color: #E4405F;
+    transition: 1s;
 }
