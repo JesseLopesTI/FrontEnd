@@ -60,44 +60,23 @@ p {
     margin-top: 32px;
 }
 
-.github-logo {
-    width: 35px;
-    margin: 10px;
-    color: #333333;
+svg {
+    display: inline-block;
+    font-size: inherit;
+    width: 2em;
+    overflow: visible;
+    vertical-align: -.125em;
+    padding: 5px;    
 }
 
-.github-logo:hover {
-    color: #181717;
-    width: 40px;    
+.fa-github-square:hover {
+    color: #181717;    
 }
 
-.linkedin-logo {
-    width: 35px;
-    margin: 10px;
-    color: #333333;
-}
-
-.linkedin-logo:hover {
+.fa-linkedin:hover {
     color: #0077B5;
-    width: 40px;    
 }
 
-.instagram-logo {
-    width: 35px;
-    margin: 10px;
-    color: #333333;
-}
-
-.instagram-logo:hover {
+.fa-instagram-square:hover {
     color: #E4405F;
-    width: 40px;    
-}
-
-#image-content {
-    display: flex;
-    justify-content: right;
-}
-
-img {
-    width: 646px;
 }
