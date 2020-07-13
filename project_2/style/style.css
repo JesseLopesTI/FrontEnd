@@ -61,12 +61,11 @@ p {
 }
 
 svg {
-    display: inline-block;
-    font-size: inherit;
     width: 2em;
     overflow: visible;
     vertical-align: -.125em;
-    padding: 5px;    
+    padding: 5px;
+    transition: 0.5s;
 }
 
 .fa-github-square:hover {
