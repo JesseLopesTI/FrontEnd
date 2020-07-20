@@ -9,6 +9,8 @@ body, p {
 /* General Settings */
 
 body {
+    width: 90%;
+    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nixie One', cursive;;
 }
@@ -20,7 +22,7 @@ a {
 
 a:hover {
     color: #333333;
-    font-weight: bold;
+    transition: 0.5s;
 }
 
 h1 {
@@ -31,10 +33,17 @@ h1 {
 
 /* Main */
 
-#main-container {
-    width: 50%;
-    height: 540px;
-    padding-top: 150px;
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-container {
+    align-items: center;
+    width: 45%;
+    margin: 0 auto;
+    height: 530px;
+    padding-top: 135px;
     display: inline-block;
 }
 
@@ -52,32 +61,34 @@ p {
     text-align: center;
     color: #333333;
     font-weight: bold;
+    line-height: 20px;
 }
 
 #logos-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 32px;
 }
 
 svg {
-    width: 2em;
+    width: 1.5em;
     overflow: visible;
     vertical-align: -.125em;
-    padding: 5px;
+    margin: 10px;
 }
 
-.fa-github-square:hover {
+.fa-github-alt:hover {
     color: #181717;
-    transition: 1s;
+    transition: 0.5s;
 }
 
-.fa-linkedin:hover {
+.fa-linkedin-in:hover {
     color: #0077B5;
-    transition: 1s;
+    transition: 0.5s;
 }
 
-.fa-instagram-square:hover {
+.fa-instagram:hover {
     color: #E4405F;
-    transition: 1s;
+    transition: 0.5s;
 }
