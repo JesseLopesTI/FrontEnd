@@ -1,0 +1,7 @@
+Hello! My name is Jesse Lopes!
+
+I am a student, graduating in "Information Technology Management" (4th semester), by Faculdade Fortium, Gama, Federal District, Brazil. Junior developer (front-end and back-end) and graphic designer.
+
+Skills:
+
+Git and GitHub (version control); HTML, CSS and JavaScript (front-end); Java (back-end); and logo design, Stationary design, social media and web arts (graphic design).
