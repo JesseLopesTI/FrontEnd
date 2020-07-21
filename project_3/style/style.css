@@ -4,75 +4,75 @@ body,
 ul,
 li,
 h1 {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 /* General Settings */
 
 body {
-    width: 90%;
-    margin: 0 auto;
-    background: #000000;
-    font-family: 'Fjalla One', sans-serif;
+	width: 90%;
+	margin: 0 auto;
+	background: #000000;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #B7B8B9;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #B7B8B9;
 }
 
 h1 {
-    font-weight: normal;
-    font-size: 30px;
+	font-weight: normal;
+	font-size: 30px;
 }
 
 /* Header */
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0;
 }
 
 ul li {
-    display: inline;
-    text-transform: lowercase;
-    margin: 0 20px 0 0;
-    font-size: 18px;
+	display: inline;
+	text-transform: lowercase;
+	margin: 0 20px 0 0;
+	font-size: 18px;
 }
 
 li a:hover {
-    color: #FFFFFF;
-    transition: 0.5s;
+	color: #FFFFFF;
+	transition: 0.5s;
 }
 
 .highlighted-menu {
-    color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 .main-title {
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin: 0;
-    padding: 0;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
 }
 
 .svg-inline--fa {
-    width: 20px;
-    display: inline;
-    margin: 10px;
-    margin: 0 0 0 20px;
-    padding: 0;
-    color: #B7B8B9;
+	width: 20px;
+	display: inline;
+	margin: 10px;
+	margin: 0 0 0 20px;
+	padding: 0;
+	color: #B7B8B9;
 }
 
 .svg-inline--fa:hover {
-    color: #FFFFFF;
-    transition: 0.5s;
+	color: #FFFFFF;
+	transition: 0.5s;
 }
