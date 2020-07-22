@@ -8,7 +8,7 @@ h3,
 P {
 	margin: 0;
 	padding: 0;
-	list-style: none;
+
 }
 
 /* General Settings */
@@ -54,6 +54,10 @@ p {
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0 auto;
+}
+
+input, textarea {
+	font-family: 'Fjalla One', sans-serif;
 }
 
 /* Header */
@@ -121,4 +125,67 @@ li a:hover {
 
 .content-paragraph {
 	text-align: left;
+}
+
+/* Form */
+
+#form-container {
+	display: flex;
+	justify-content: right;
+}
+
+label {
+	color: #FFFFFF;
+}
+
+form {
+  width: 500px;
+  border: 1px solid #FFFFFF;
+  padding: 0;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+input,textarea {
+	background-color: #444444;
+	color: #FFFFFF;
+	border: 1px solid #444444;
+	border-radius: 5px;
+  text-transform: uppercase;
+	width: 470px;
+  padding: 12px;
+  margin: 10px 0px 30px;
+  font-size: 16px;
+}
+
+input:hover {
+  border: 1px solid #FFFFFF;
+  transition: .5s;
+}
+
+input.focus {
+  border: 1px solid #FFFFFF;
+}
+
+textarea {
+  resize: vertical;
+}
+
+textarea:hover {
+  border: 1px solid #FFFFFF;
+  transition: .5s;
+}
+
+textarea.focus {
+  border: 1px solid #FFFFFF;
+}
+
+.button {
+  background: #FFFFFF;
+  color: #000000;
+  border-radius: 5px;
+  width: 100px;
+  margin: 0;
+  padding: 12px;
+  cursor: pointer;
 }
