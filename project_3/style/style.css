@@ -168,7 +168,7 @@ input:hover {
   transition: .5s;
 }
 
-input.focus {
+input:focus {
   border: 1px solid #FFFFFF;
 }
 
@@ -181,8 +181,16 @@ textarea:hover {
   transition: .5s;
 }
 
-textarea.focus {
+textarea:focus {
   border: 1px solid #FFFFFF;
+}
+
+::placeholder {
+  color: #B7B8B9;
+}
+
+input, textarea.custom-color {
+  caret-color: red;
 }
 
 .button {
