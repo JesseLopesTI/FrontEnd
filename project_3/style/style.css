@@ -86,9 +86,10 @@ li a:hover {
 }
 
 .main-title {
-	text-transform: uppercase;
+  display: flex;
+  text-transform: uppercase;
 	color: #FFFFFF;
-	margin: 0;
+	margin-right: 75px;
 	padding: 0;
 }
 
