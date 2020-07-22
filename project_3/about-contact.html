@@ -41,14 +41,29 @@
       </div>
     </section>
 
-    <section>
-      <div div="about-content-container">
+    <section id="about-content-secton">
+      <div id="about-content-container">
         <h3 class="secondary-content-title">Jesse Lopes, Born in Brazil in 1988, in Gama,<br> Federal District.</h3>
 
         <p class="content-paragraph">
           Jesse Lopes is a freelance graphic designer and also a junior front-end<br> developer. Currently, he has worked with HTML, CSS 
           and JavaScript technologies.
         </p>
+      </div>
+
+      <div id="form-container">
+        <form>
+          <label>Name *</label>
+          <input type="text" id="name" placeholder="Your name..." required />
+
+          <label>Email Address *</label>
+          <input type="text" id="email" placeholder="Your email address..." required />
+
+          <label>Message *</label>
+          <textarea cols="20" rows="5" placeholder="Your massege" required></textarea>
+
+          <input class="button" type="submit" value="Submit">
+        </form>
       </div>
     </section>
   </body>
