@@ -4,6 +4,7 @@ body,
 ul,
 li,
 h1,
+h3,
 P {
 	margin: 0;
 	padding: 0;
@@ -38,6 +39,13 @@ h2 {
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 20px;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 25px;
+	color: #FFFFFF;
+	text-transform: uppercase;
 }
 
 p {
@@ -101,4 +109,16 @@ li a:hover {
 #about-container {
 	padding-top: 70px;
 	padding-bottom: 70px;
+	border: 1px solid #FFFFFF;
+}
+
+/* About Content */
+
+.secondary-content-title {
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+.content-paragraph {
+	text-align: left;
 }
