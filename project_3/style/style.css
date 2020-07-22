@@ -67,7 +67,6 @@ header {
 	justify-content: space-between;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	margin: 0;
 }
 
 ul li {
@@ -193,4 +192,19 @@ textarea.focus {
   margin: 0;
   padding: 12px;
   cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+	padding-bottom: 70px;
+}
+
+.footer-link-color {
+  color: #FFFFFF;
+}
+
+.footer-link-color:hover {
+  color: #B7B8B9;
+  transition: .5s;
 }
