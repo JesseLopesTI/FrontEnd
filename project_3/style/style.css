@@ -53,7 +53,6 @@ p {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 0 auto;
 }
 
 input, textarea {
@@ -108,6 +107,13 @@ li a:hover {
 	transition: 0.5s;
 }
 
+/* About and Contact Section */
+
+#about-content-secton {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* About */
 
 #about-container {
@@ -140,9 +146,8 @@ label {
 
 form {
   width: 500px;
-  border: 1px solid #FFFFFF;
-  padding: 0;
-  margin: 0px;
+  padding-top: 70px;
+	padding-bottom: 70px;
   text-transform: uppercase;
 }
 
